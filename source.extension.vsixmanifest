@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
+    xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="BeardedTheme.aa980be1-33f1-408c-b202-ab956dc8d334" Version="1.0.0" Language="en-US" Publisher="Daomtthuan" />
+        <Identity Id="BeardedTheme.871259d5-2c0e-40d5-bd40-e3b798131c1b" Version="1.0.0" Language="en-US" Publisher="Daomtthuan" />
         <DisplayName>Bearded Theme</DisplayName>
         <Description xml:space="preserve">Bearded Theme for Visual Studio base on Bearded Theme of Visual Studio Code</Description>
-        <MoreInfo>https://github.com/daomtthuan/visual-studio-bearded-theme</MoreInfo>
         <License>LICENSE.txt</License>
-        <GettingStartedGuide>README.md</GettingStartedGuide>
-        <ReleaseNotes>CHANGELOG.txt</ReleaseNotes>
-        <Icon>assets\icon.png</Icon>
-        <PreviewImage>assets\preview.png</PreviewImage>
-        <Tags>Theme</Tags>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Preview.png</PreviewImage>
+        <Tags>Theme, Bearded Theme, Themes, Bearded</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
@@ -20,10 +18,53 @@
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Altica.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Anthracite.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Arc Blueberry.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Arc Eggplant.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Arc EolStorm.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Arc Reversed.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Arc.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Black Amethyst.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Black Diamond.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Black Emerald.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Black Gold.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Black Ruby.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Coffee Cream.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Coffee Reversed.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Coffee.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Earth.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme HC Brewing Storm.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme HC Chocolate Espresso.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme HC Ebony.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme HC Flurry.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme HC Midnight Void.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme HC Minuit.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme HC Wonderland Wood.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Light.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Monokai Black.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Monokai Metallian.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Monokai Reversed.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Monokai Stone.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Monokai Terra.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Oceanic Reversed.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Oceanic.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Solarized Light.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Solarized Reversed.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Solarized.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Stained Blue.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Stained Purple.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Surprising Blueberry.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Surprising Eggplant.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Surprising Watermelon.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Vivid Black.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Vivid Light.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Vivid Purple.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Void.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Themes\Bearded Theme Will.pkgdef" />
+    </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-    </Assets>
 </PackageManifest>

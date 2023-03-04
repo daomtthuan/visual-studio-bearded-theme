@@ -1,0 +1,24 @@
+{
+    "material-icon-theme.folders.associations": {
+        "properties": "config",
+        "obj": "dist",
+        ".vs": "vscode"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true,
+        "**/bin": true,
+        "**/obj": true,
+        ".vs": true,
+        ".vscode": true
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.sln": "*.csproj, *.csproj.user, *.vsixmanifest, .gitignore, LICENSE.txt, README.md, .editorconfig"
+    }
+}
