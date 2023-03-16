@@ -1,4 +1,8 @@
-# Visual Studio Bearded Theme
+# Visual Studio Bearded Theme (unofficial)
+
+Notice:<br/>
+This is **unofficial** theme of Bearded Theme.<br/>
+I just convert this theme for Visual Studio.
 
 **Bearded Theme** for **Visual Studio** base on **Bearded Theme** of **Visual Studio Code** (https://github.com/BeardedBear/bearded-theme).
 
